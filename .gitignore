@@ -1,0 +1,10 @@
+# Ignore build directories
+cmake-build-debug/
+
+# Ignore IDE-specific files (if any)
+.idea/
+.vscode/
+
+# Ignore any other temporary files
+*.tmp
+*.log

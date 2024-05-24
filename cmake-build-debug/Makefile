@@ -129,6 +129,30 @@ SinglyLinkedList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SinglyLinkedList.dir/build.make CMakeFiles/SinglyLinkedList.dir/build
 .PHONY : SinglyLinkedList/fast
 
+SLinkedList.o: SLinkedList.cpp.o
+.PHONY : SLinkedList.o
+
+# target to build an object file
+SLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SinglyLinkedList.dir/build.make CMakeFiles/SinglyLinkedList.dir/SLinkedList.cpp.o
+.PHONY : SLinkedList.cpp.o
+
+SLinkedList.i: SLinkedList.cpp.i
+.PHONY : SLinkedList.i
+
+# target to preprocess a source file
+SLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SinglyLinkedList.dir/build.make CMakeFiles/SinglyLinkedList.dir/SLinkedList.cpp.i
+.PHONY : SLinkedList.cpp.i
+
+SLinkedList.s: SLinkedList.cpp.s
+.PHONY : SLinkedList.s
+
+# target to generate assembly for a file
+SLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SinglyLinkedList.dir/build.make CMakeFiles/SinglyLinkedList.dir/SLinkedList.cpp.s
+.PHONY : SLinkedList.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SinglyLinkedList"
+	@echo "... SLinkedList.o"
+	@echo "... SLinkedList.i"
+	@echo "... SLinkedList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

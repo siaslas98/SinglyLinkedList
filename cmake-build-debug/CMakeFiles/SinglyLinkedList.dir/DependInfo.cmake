@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/siaslas/Desktop/SinglyLinkedList/SLinkedList.cpp" "CMakeFiles/SinglyLinkedList.dir/SLinkedList.cpp.o" "gcc" "CMakeFiles/SinglyLinkedList.dir/SLinkedList.cpp.o.d"
   "/Users/siaslas/Desktop/SinglyLinkedList/main.cpp" "CMakeFiles/SinglyLinkedList.dir/main.cpp.o" "gcc" "CMakeFiles/SinglyLinkedList.dir/main.cpp.o.d"
   )
 
